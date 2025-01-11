@@ -16,10 +16,12 @@ Excerpts:
 
 > Since several bounded contexts often must communicate as shown in Figure 2.3, we often apply patterns to ensure our models can maintain integrity. The three main patterns are as follows:
 
-- Open Host Service
-- Published language
-- Anti-corruption layer
+-   Open Host Service
+-   Published language
+-   Anti-corruption layer
 
 > An Open Host Service is a means of giving other systems (or sub-systems) access to ours.
 
->
+> A ubiquitous language is our team’s internal formally defined language; a published language is the opposite. If our team is going to expose some of our systems to other teams via an Open Host Service, we need to ensure the definition of what we expose to other teams in different bounded contexts is clear
+
+> Two popular ways to present published language are via OpenAPI or gRPC.
