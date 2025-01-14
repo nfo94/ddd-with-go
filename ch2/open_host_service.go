@@ -9,7 +9,7 @@ import (
 )
 
 type UserHandler interface {
-	IsUserSubscriptionActive(ctx context.Context, userID string) bool
+	IsUserPaymentActive(ctx context.Context, userID string) bool
 }
 
 type UserActiveResponse struct {
@@ -18,20 +18,19 @@ type UserActiveResponse struct {
 
 func router(u UserHandler) {
 	m := mux.NewRouter()
-	m.HandleFunc("/user/{userID}/subscription/active", func(writer http.ResponseWriter, request *http.Request) {
-		uID := mux.Vars(request)["userID"]
+	m.HandleFunc("/user/{userID}/payment/active", func(w http.ResponseWriter, r *http.Request) {
+		uID := mux.Vars(r)["userID"]
 		if uID == "" {
-			writer.WriteHeader(http.StatusBadRequest)
+			w.WriteHeader(http.StatusBadRequest)
 			return
 		}
+		isActive := u.IsUserPaymentActive(r.Context(), uID)
 
-		isActive := u.IsUserSubscriptionActive(request.Context(), uID)
 		b, err := json.Marshal(UserActiveResponse{IsActive: isActive})
 		if err != nil {
-			writer.WriteHeader(http.StatusInternalServerError)
+			w.WriteHeader(http.StatusInternalServerError)
 			return
 		}
-
-		_, _ = writer.Write(b)
+		_, _ = w.Write(b)
 	}).Methods(http.MethodGet)
 }

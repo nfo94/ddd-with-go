@@ -75,7 +75,7 @@
       "containerId": "HbQg8Z9AZcgOTjMEmfiWs",
       "originalText": "lead",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "arrow",
@@ -213,7 +213,7 @@
       "containerId": "HBdDs9qmAPO_oDQM0Y3hD",
       "originalText": "which subscription plan?",
       "lineHeight": 1.25,
-      "baseline": 54
+      "baseline": 55
     },
     {
       "type": "rectangle",
@@ -287,7 +287,7 @@
       "containerId": "Tu59svPvZMhHxDIzjC347",
       "originalText": "basic",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -365,7 +365,7 @@
       "containerId": "3TOpssqkIc0vfOU1sPDBg",
       "originalText": "premium",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -439,7 +439,7 @@
       "containerId": "wu4sa44Am-BbB2-ZWqKIa",
       "originalText": "exclusive",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "arrow",
@@ -673,7 +673,7 @@
       "containerId": "f3XQ7XX4KIVFQ1UqFrf5C",
       "originalText": "customer",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "line",
@@ -1005,7 +1005,7 @@
       "containerId": "6U3_CC-EmwhIwt2-rr5OR",
       "originalText": "Still paying?",
       "lineHeight": 1.25,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "arrow",
@@ -1131,7 +1131,7 @@
       "containerId": "mMVHwe22bKeMmolYGy6Mn",
       "originalText": "churned",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "arrow",
@@ -1187,8 +1187,8 @@
     },
     {
       "type": "text",
-      "version": 53,
-      "versionNonce": 444982768,
+      "version": 54,
+      "versionNonce": 819300924,
       "isDeleted": false,
       "id": "tI88rkCMyYk27L-hGKcjP",
       "fillStyle": "solid",
@@ -1208,7 +1208,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1736618021341,
+      "updated": 1736848546075,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1275,8 +1275,8 @@
     },
     {
       "type": "text",
-      "version": 54,
-      "versionNonce": 783525872,
+      "version": 55,
+      "versionNonce": 416040836,
       "isDeleted": false,
       "id": "tPczqeFPr_clcpI1HrMv4",
       "fillStyle": "solid",
@@ -1296,7 +1296,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1736618021341,
+      "updated": 1736848546075,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1381,7 +1381,7 @@
       "containerId": "_wg9CUvAOCqhQVQHDFhT1",
       "originalText": "customer",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "image",
@@ -1496,7 +1496,7 @@
       "containerId": "dkEvGn1N1HWBfliZOu0H7",
       "originalText": "first timer?",
       "lineHeight": 1.25,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "arrow",
@@ -1552,8 +1552,8 @@
     },
     {
       "type": "text",
-      "version": 45,
-      "versionNonce": 1277914608,
+      "version": 46,
+      "versionNonce": 1587602108,
       "isDeleted": false,
       "id": "aOGkOAN0yR8ecFxPT3uBI",
       "fillStyle": "solid",
@@ -1573,7 +1573,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1736618021342,
+      "updated": 1736848546075,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1662,7 +1662,7 @@
       "containerId": "mV_RmIzLEmpiqIi_xg6tA",
       "originalText": ">6 months?",
       "lineHeight": 1.25,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "arrow",
@@ -1718,8 +1718,8 @@
     },
     {
       "type": "text",
-      "version": 46,
-      "versionNonce": 1471984112,
+      "version": 47,
+      "versionNonce": 39892740,
       "isDeleted": false,
       "id": "AOshvPea6__BlbpIHabBB",
       "fillStyle": "solid",
@@ -1739,7 +1739,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1736618021342,
+      "updated": 1736848546076,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1824,7 +1824,7 @@
       "containerId": "42pLGyWS8AwA4l6QUTOVf",
       "originalText": "lost lead\nre-engagement campaign",
       "lineHeight": 1.25,
-      "baseline": 54
+      "baseline": 55
     },
     {
       "type": "image",
@@ -1913,8 +1913,8 @@
     },
     {
       "type": "text",
-      "version": 46,
-      "versionNonce": 1523381744,
+      "version": 47,
+      "versionNonce": 1517103932,
       "isDeleted": false,
       "id": "S0TAy8aJMjg-SvcjE7vSR",
       "fillStyle": "solid",
@@ -1934,7 +1934,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1736618021342,
+      "updated": 1736848546076,
       "link": null,
       "locked": false,
       "fontSize": 16,
