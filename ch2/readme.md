@@ -25,3 +25,17 @@ Excerpts:
 > A ubiquitous language is our team’s internal formally defined language; a published language is the opposite. If our team is going to expose some of our systems to other teams via an Open Host Service, we need to ensure the definition of what we expose to other teams in different bounded contexts is clear
 
 > Two popular ways to present published language are via OpenAPI or gRPC.
+
+> The downside to OpenAPI is that there are more performant alternatives out there.
+> Furthermore, OpenAPI does not give any protection for breaking changes natively. For
+> example, if you removed a field from your documentation, but another team depended on
+> it, you would likely break their workflow
+
+> gRPC was created at Google to handle remote communication at scale. It supports load
+> balancing, tracing, health checks, bi-directional streaming, and authentication.
+
+> Furthermore, gRPC uses binary serialization to compress the payload it sends, making
+> it very efficient and fast.
+
+> To call a method on a remote server, firstly, we must define our message protobuf.
+> Protobufs are typically defined in a .proto file, and they are language-agnostic

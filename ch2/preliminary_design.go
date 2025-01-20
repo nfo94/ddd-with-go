@@ -1,9 +1,10 @@
 package ch2
 
-import "context"
+import (
+	"context"
+)
 
 type UserType = int
-
 type SubscriptionType = int
 
 const (
@@ -15,7 +16,7 @@ const (
 )
 
 const (
-	unknownSubscriptionType = iota
+	unknownSubscriptionType SubscriptionType = iota
 	basic
 	premium
 	exclusive
