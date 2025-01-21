@@ -39,3 +39,6 @@ Excerpts:
 
 > To call a method on a remote server, firstly, we must define our message protobuf.
 > Protobufs are typically defined in a .proto file, and they are language-agnostic
+
+> Sometimes called an adapter layer, an anti-corruption layer can be used to translate
+> models from different systems
