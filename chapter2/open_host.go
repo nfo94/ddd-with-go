@@ -19,8 +19,6 @@ type UserActiveResponse struct {
 func router(u UserHandler) {
 	m := mux.NewRouter()
 	m.HandleFunc("/user/{userID}/payment/active", func(writer http.ResponseWriter, request *http.Request) {
-		// check auth, etc
-
 		uID := mux.Vars(request)["userID"]
 		if uID == "" {
 			writer.WriteHeader(http.StatusBadRequest)
