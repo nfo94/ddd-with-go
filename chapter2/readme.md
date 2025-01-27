@@ -14,7 +14,8 @@ Excerpts:
 
 > Bounded contexts are all about dividing large models into smaller, easier-to-understand chunks and being explicit about how they relate to each other
 
-> Since several bounded contexts often must communicate as shown in Figure 2.3, we often apply patterns to ensure our models can maintain integrity. The three main patterns are as follows:
+> Since several bounded contexts often must communicate, we often apply patterns to
+> ensure our models can maintain integrity. The three main patterns are as follows:
 
 -   Open Host Service
 -   Published language
