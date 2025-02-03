@@ -10,3 +10,8 @@
 > If your model has mostly public getter and setter functions, no business logic, or
 > depends on various clients to implement the business logic, you probably have an
 > anemic model.
+
+> If you want to use an ORM, ensure it does not control how you write your entities in
+> your DDD context; otherwise, you may end up with an anemic model. We also want to keep
+> the coupling between our entity and ORM to a minimum. Therefore, I recommend you use
+> an adaptor layer to decouple your ORM and DDD entity layer.
