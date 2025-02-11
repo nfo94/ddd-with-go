@@ -1,4 +1,4 @@
-Excerpts:
+Excerpts from the book:
 
 > domains are “a sphere of knowledge, influence, or activity.”
 
