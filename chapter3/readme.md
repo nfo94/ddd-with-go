@@ -26,3 +26,19 @@ Excerpts from the book:
 
 > It is recommended that value objects remain immutable to prevent any unexpected
 > behavior.
+
+> Value objects should be replaceable.
+
+> If you care only about the values of an object, then it should preferably be a value
+> object. Some other questions to ask yourself to ensure a value object is the right
+> choice for you are:
+>
+> -   Is it possible for me to treat this object as immutable?
+> -   Does it measure, quantify, or describe a domain concept?
+> -   Can it be compared to other objects of the same type by its values?
+>
+> If the answers to all these questions are yes, a value object is probably right for
+> your use case.
+
+> In domain-driven design, the aggregate pattern refers to a group of domain objects
+> that can be treated as one for some behaviors
