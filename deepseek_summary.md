@@ -1,5 +1,3 @@
-I asked Deepseek to summarize DDD concepts and this is what it has come up with:
-
 Bounded Context: Defines a specific boundary within which a particular model applies,
 ensuring consistency and clarity in terminology and rules.
 
